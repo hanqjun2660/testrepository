@@ -22,7 +22,7 @@ public class TestController {
         Map<String, String> responseMap = new HashMap<>();
 
         responseMap.put("test",testService.getData());
-        
+
         return responseMap;
     }
 }
