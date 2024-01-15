@@ -32,6 +32,16 @@ dependencies {
 	testImplementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter-test:3.0.3'
 }
 
+bootJar {
+	archiveBaseName = 'testapp'
+	archiveFileName = 'testapp.jar'
+	archiveVersion = "0.0.0"
+}
+
+springBoot {
+	mainClass = 'com.example.testapp.TestappApplication'
+}
+
 tasks.named('test') {
 	useJUnitPlatform()
 }
