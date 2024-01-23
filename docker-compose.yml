@@ -8,3 +8,5 @@ services:
     image: testapp-spring-app-1
     ports:
       - "9090:9090"
+
+    restart: always
