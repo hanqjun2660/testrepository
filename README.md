@@ -16,5 +16,5 @@
 **특이사항**
 1. Jenkins 외부접속 가능
 2. ssh 외부접속 가능
-3. DB 외부접속 불가능
-4. Application 외부접속 불가능
+3. DB 외부접속 가능
+4. Application 외부접속 가능
