@@ -7,6 +7,7 @@
  - Jenkins 2.426.2
  - Docker 24.0.7
  - Docker Compose 2.24.0
+ - Nginx Proxy Manager 2.11.1
 
 ## 진행사항
 1. Git Webhook -> jenkins
